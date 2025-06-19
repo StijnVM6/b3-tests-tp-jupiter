@@ -1,5 +1,5 @@
 export type Values = {
-	lune: number;
-	soleil: number;
-	terre: number;
+	lune: number | null;
+	soleil: number | null;
+	terre: number | null;
 };
